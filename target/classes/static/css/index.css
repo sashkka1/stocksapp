@@ -1,0 +1,40 @@
+body{
+    background: #adadad url('../assets/my/fon.png');
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+/*                     */
+.logo-icon {
+    width: 100px;
+}
+h4{
+    color: #FEC753;
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+/*                     */
+h1{
+    color: #ff7c00;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+/*        текст Stocks            */
+.btn-enter{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.logo{
+    margin-top: 8%;
+}
+.subtitle{
+    margin-top: 10%;
+}
+.btn-start{
+    padding: 15px 60px;
+}
+.start{
+    margin-top: 5%;
+}
+

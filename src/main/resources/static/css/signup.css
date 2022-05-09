@@ -1,0 +1,81 @@
+body{
+    background: #adadad;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*       главный фон              */
+.logo-icon {
+    width: 42px;
+    height: 45px;
+    margin-top: 8px;
+}
+.grey.darken-4 {
+    background-color: #484848 !important;
+}
+/*             верхняя строчка        */
+.input-field label {
+    color: #FEC753;
+}
+/*       надпись Email и Пароль              */
+h4{
+    color: #FEC753;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 1%;
+}
+/*         кажеться   Пожалуйста, введите логин и пароль         */
+h5,a{
+    color: #ffc983;
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 1%;
+}
+/*           Если вы ещё не зарегистрированы, Зарегистрируйтесь           */
+h5 a{
+    text-decoration: underline;
+}
+.input-field [type=text], .input-field [type=email], .input-field [type=password]{
+    color: #ff7c00;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+/*           текст самого пароля и емейла          */
+/* label focus color */
+.input-field input:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+    color: #fcb328 !important;
+}
+/*          цвет надписи Email и Пароль   когда на её наводишься         */
+/* label underline focus color */
+.input-field input:focus, .materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #fcb328 !important;
+    box-shadow: 0 1px 0 0 #ff7c00 !important;
+}
+/*         когда вводишь емаил или пароль появляеться маленькая линия            */
+/* label focus color */
+.input-field input:focus + label {
+    color: #fcb328;
+}
+/*           вроде как не за что          */
+.wrapper{
+    margin-top: 10%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background: #6c6c6c;
+}
+/*          большой центральный квадрат           */
+.form{
+    margin-left: 24%;
+}
+.btn-submit:hover{
+    background: #565656 !important;
+}
+/*        фон кнопки регистрация когда на её наводишь             */
+.btn-repeat{
+    margin-left: 40%;
+}
